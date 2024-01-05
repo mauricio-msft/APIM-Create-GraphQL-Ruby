@@ -1,4 +1,3 @@
-# A ruby script that makes a restful call to a fake API and shows its response
 require 'net/http'
 require 'json'
 
