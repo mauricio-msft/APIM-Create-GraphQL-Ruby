@@ -16,7 +16,7 @@ serviceUrl = "" # GraphQL backend url
 # The URL of the API endpoint
 uri = URI("https://management.azure.com/subscriptions/#{subscriptionId}/resourceGroups/#{resourceGroup}/providers/Microsoft.ApiManagement/service/#{serviceName}/apis/#{apiName}?api-version=2023-03-01-preview")
 
-# Create a GET request object
+# Create a PUT request object
 request = Net::HTTP::Put.new(uri)
 
 #Prepare headers
