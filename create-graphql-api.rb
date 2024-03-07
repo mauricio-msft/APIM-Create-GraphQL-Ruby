@@ -9,7 +9,7 @@ serviceName = ""
 apiName = ""
 displayName = ""
 path = ""
-type = ""
+type = "graphql"
 token = ""
 serviceUrl = "" # GraphQL backend url
 
